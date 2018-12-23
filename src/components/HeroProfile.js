@@ -2,11 +2,10 @@ import React from "react";
 import HeroBox from "../components/HeroBox";
 import HeroDetails from "../components/HeroDetails";
 
-const HeroProfile = props => {
-  const hero = props.hero,
-    details = hero.details,
+const HeroProfile = ({ hero }) => {
+  const details = hero.details,
     story = details.story;
-  console.log(details);
+
   return (
     <div className="container">
       <div className="row hero-main">

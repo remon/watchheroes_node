@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Herocard = props => {
-  const Hero = props.hero;
-
-  const heroLink = "/" + Hero.id;
+const Herocard = ({ hero }) => {
+  const heroLink = "/" + hero.id;
   return (
     <div className="hero-card-item col-md-3 col-sm-4 col-xs-6">
       <Link to={`${heroLink}`}>
         <div className="hero-inner">
-          <img src={Hero.image} className="hero-pt" alt={Hero.name} />
+          <img src={hero.image} className="hero-pt" alt={hero.name} />
 
-          <div className="hero-name"> {Hero.name}</div>
+          <div className="hero-name"> {hero.name}</div>
         </div>
       </Link>
     </div>
