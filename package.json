@@ -1,0 +1,41 @@
+{
+  "name": "watchheroes_node2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.0",
+    "mongoose-paginate-v2": "^1.0.13",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "sass-loader": "^7.1.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "seed": "node seed/db_seed.js",
+    "build": "react-scripts build",
+    "buildrun": "react-scripts build && nodemon server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
