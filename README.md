@@ -16,9 +16,9 @@ ExpressJs server in root directory
 
 > server.js
 
-The data for this application fetched from **[this link](https://overwatch-api.tekrop.fr/)**
+The data for this application fetched from **[this link](https://overwatch-api.tekrop.fr/)** (29 heroes )
 
-the project contains a seed file `db_seed.js` inside seed folder
+the project contains a seed file `db_seed.js` inside seed folder(it will scrap all the data from watchheroes api and then populate the database with it )
 
 > seed/db_seeds.js
 

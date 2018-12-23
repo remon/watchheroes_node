@@ -79,9 +79,9 @@ class HeroesContainer extends React.Component {
             //append new heroes to the original state heroes //
 
             newHeros = heroes.concat(responseData.heroes);
-          console.log(responseData);
+
           noSearchQuery = query && responseData.heroes.length < 1;
-          console.log(response.data);
+
           this.setState({
             isLoading: false,
             searchedQuery: query,
