@@ -42,4 +42,4 @@ MONGO_URL="mongodb://<username>:<password>@<mlabDbUrl>"
 
 N.B you can run `yarn runbuild` instead of `yarn build && yarn start`
 
-7. you can add env. variable to heroku by the command `heroku config:get MONGO_URL= your db url`
+7. you can add env. variable to heroku by the command `heroku config:set MONGO_URL= your db url`
