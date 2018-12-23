@@ -38,6 +38,8 @@ MONGO_URL="mongodb://<username>:<password>@<mlabDbUrl>"
 
 5. run `yarn run seed` to populate the database on mlab .
 
-6- run `yarn build && yarn start` then go to `localhost:8080` , you will find your app there
+6. run `yarn build && yarn start` then go to `localhost:8080` , you will find your app there
 
 N.B you can run `yarn runbuild` instead of `yarn build && yarn start`
+
+7. you can add env. variable to heroku by the command `heroku config:get MONGO_URL= your db url`
