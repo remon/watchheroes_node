@@ -133,6 +133,9 @@ header a {
     width: 98%;
     margin-left: 1%;
   }
+  .search-form {
+    width: 90%;
+  }
   .hero_box:first-child {
     margin-top: 20px;
   }
